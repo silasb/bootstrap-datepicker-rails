@@ -346,6 +346,10 @@
 			}
 		},
 
+		getViewMode: function() {
+			return this.viewMode;
+		},
+
 		_utc_to_local: function(utc){
 			return new Date(utc.getTime() + (utc.getTimezoneOffset()*60000));
 		},
